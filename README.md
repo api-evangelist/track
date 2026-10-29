@@ -64,5 +64,130 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Track is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by true-ventures) and added to the network as a stub for full-pipeline profiling.
-- https://trackroyalty.com
+Track Royalties Inc. (brand: Track) provides a global banking, accounting, and payment infrastructure tailored for the music industry. It enables artists, labels, and rights holders to manage royalty collections, automate payouts, and gain real‑time financial insights across streaming platforms and other revenue sources. The platform aims to simplify complex royalty workflows, offering APIs for integration with music services, fintech partners, and enterprise systems, while ensuring compliance with industry standards and supporting scalable, secure transactions worldwide.
+
+**Areas:** Music · FinTech · Royalties · Payments · Banking · API
+
+## Track on APIs.io
+
+Everything profiled for Track is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/track/](https://apis.io/providers/track/)** — or go straight to one of the APIs or properties below.
+
+### APIs (10)
+
+- [Track Accounts API](https://apis.io/apis/track/track-accounts-api/) — The Accounts API from Track — 11 operation(s) for accounts.
+- [Track Catalogue API](https://apis.io/apis/track/track-catalogue-api/) — The Catalogue API from Track — 21 operation(s) for catalogue.
+- [Track Contracts API](https://apis.io/apis/track/track-contracts-api/) — The Contracts API from Track — 4 operation(s) for contracts.
+- [Track Expenses API](https://apis.io/apis/track/track-expenses-api/) — The Expenses API from Track — 3 operation(s) for expenses.
+- [Track Imports API](https://apis.io/apis/track/track-imports-api/) — The Imports API from Track — 8 operation(s) for imports.
+- [Track Ledger API](https://apis.io/apis/track/track-ledger-api/) — The Ledger API from Track — 2 operation(s) for ledger.
+- [Track Payments API](https://apis.io/apis/track/track-payments-api/) — The Payments API from Track — 7 operation(s) for payments.
+- [Track Portal API](https://apis.io/apis/track/track-portal-api/) — The Portal API from Track — 3 operation(s) for portal.
+- [Track Revenue API](https://apis.io/apis/track/track-revenue-api/) — The Revenue API from Track — 23 operation(s) for revenue.
+- [Track Open API](https://apis.io/apis/track/track-open-api-api/) — The Open API API from Track — 1 operation(s) for open api.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Track Agentic Access](https://apis.io/agentic-access/track/track-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ContractDetails](https://apis.io/schemas/track/track-contract-details/)
+- [PatchedContract](https://apis.io/schemas/track/track-patched-contract/)
+- [PatchedRevenueStatement](https://apis.io/schemas/track/track-patched-revenue-statement/)
+- [PortalRoyaltyStatement](https://apis.io/schemas/track/track-portal-royalty-statement/)
+- [RevenueStatement](https://apis.io/schemas/track/track-revenue-statement/)
+- [RoyaltyStatement](https://apis.io/schemas/track/track-royalty-statement/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Track Context](https://apis.io/jsonld/track/track-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Track Openapi Overlay](https://apis.io/overlays/track/track-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Track API Rules](https://apis.io/rules/track/track-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Track Authentication](https://apis.io/security/track/track-authentication/)
+- [Track Domain Security](https://apis.io/security/track/track-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://trackroyalty.com)
+
+## API Evangelist rating
+
+**Kin Score 31.8** — thin · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 52.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 18.3 |
+| Access clarity | 0.0 |
+
+**Agent readiness 35.6** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 13.4** — Banking & Open Finance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/track/](https://apis.io/providers/track/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Track: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/track/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
